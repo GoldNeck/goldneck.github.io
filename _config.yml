@@ -1,5 +1,5 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: IT Technology Sharing Blog
+subtitle: IT 기술 공유 블로그
 description: >- # this means to ignore newlines until "baseurl:"
   기술 공유 블로그
 
@@ -26,7 +26,7 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
+author: GoldTree
 author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
 author_email: "mail@sujaykundu.com"
 author_location: India
