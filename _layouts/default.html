@@ -38,5 +38,19 @@ layout: compress
       });
     }
   </script>
+  <script>
+    // CORS Anywhere 프록시 URL 사용
+    const url = 'https://cors-anywhere.herokuapp.com/https://goldneck.github.io/feed.xml';
+
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.text();
+        })
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+  </script>
   </body>
 </html>
