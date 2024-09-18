@@ -132,13 +132,8 @@ DEPENDENCIES
   bundler (~> 2.5.15)
   csv
   faraday-retry
-<<<<<<< HEAD
   ffi (~> 1.17.0)
-  jekyll (~> 4.3.3)
-=======
-  ffi (~> 1.16.3)
   jekyll (~> 4.3.4)
->>>>>>> origin/dependabot/bundler/jekyll-4.3.4
   jekyll-feed (~> 0.17.0)
   jekyll-gist (~> 1.5.0)
   jekyll-paginate (~> 1.1.0)
