@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/eventmachine/eventmachine
+  revision: 9cb13a8a62363df5ebcc414169a3deb2c1608528
+  tag: v1.2.7
+  specs:
+    eventmachine (1.2.7)
+    eventmachine (1.2.7-x86-mingw32)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -12,26 +20,30 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    eventmachine (1.2.7)
-    faraday (2.10.0)
-      faraday-net_http (>= 2.0, < 3.2)
+    faraday (2.12.0)
+      faraday-net_http (>= 2.0, < 3.4)
+      json
       logger
-    faraday-net_http (3.1.0)
+    faraday-net_http (3.3.0)
       net-http
     faraday-retry (2.2.1)
       faraday (~> 2.0)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86-mingw32)
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     ffi (1.17.0-x86_64-linux-musl)
     forwardable-extended (2.6.0)
-    google-protobuf (4.28.1-arm64-darwin)
+    google-protobuf (4.28.2-arm64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.28.1-x86_64-darwin)
+    google-protobuf (4.28.2-x86-mingw32)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.28.1-x86_64-linux)
+    google-protobuf (4.28.2-x86_64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -69,6 +81,7 @@ GEM
     jgd (1.14.0)
       jekyll (>= 1)
       trollop (>= 2)
+    json (2.7.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -77,7 +90,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.0)
+    logger (1.6.1)
     mercenary (0.4.0)
     net-http (0.4.1)
       uri
@@ -88,7 +101,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
-    puma (6.4.2)
+    puma (6.4.3)
       nio4r (~> 2.0)
     rake (13.2.1)
     rb-fsevent (0.11.2)
@@ -97,13 +110,14 @@ GEM
     rexml (3.3.7)
     rouge (4.4.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.78.0-arm64-darwin)
+    sass-embedded (1.79.1)
       google-protobuf (~> 4.27)
-    sass-embedded (1.78.0-x86_64-darwin)
+      rake (>= 13)
+    sass-embedded (1.79.1-arm64-darwin)
       google-protobuf (~> 4.27)
-    sass-embedded (1.78.0-x86_64-linux-gnu)
+    sass-embedded (1.79.1-x86-mingw32)
       google-protobuf (~> 4.27)
-    sass-embedded (1.78.0-x86_64-linux-musl)
+    sass-embedded (1.79.1-x86_64-darwin)
       google-protobuf (~> 4.27)
     sawyer (0.9.2)
       addressable (>= 2.3.5)
@@ -116,13 +130,14 @@ GEM
     tzinfo-data (1.2024.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
-    uri (0.13.0)
+    uri (0.13.1)
     wdm (0.2.0)
     webrick (1.8.1)
 
 PLATFORMS
   arm64-darwin-23
   universal-darwin-21
+  x86-mingw32
   x86_64-linux
   x86_64-linux-musl
 
@@ -131,6 +146,7 @@ DEPENDENCIES
   base64
   bundler (~> 2.5.15)
   csv
+  eventmachine (= 1.2.7)!
   faraday-retry
   ffi (~> 1.17.0)
   jekyll (~> 4.3.4)

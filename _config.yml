@@ -1,7 +1,7 @@
-title: IT Technology Sharing Blog
-subtitle: IT 기술 공유 블로그
+title: IT Technology Blog
+subtitle: IT 공유 블로그
 description: >- # this means to ignore newlines until "baseurl:"
-  기술 공유 블로그
+  IT 공유 블로그
 
 #url: "https://goldneck.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 url: "https://onetreegold.com"
@@ -27,11 +27,11 @@ urls:
 
 author_logo: profile.png
 author: GoldTree
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_bio: Java, Web, Db, Flutter 사용합니다.
+author_email: "gold@onetreegold.com"
+author_location: Korea
+author_website_url: "https://onetreegold.com"
+typewrite-text: IT 기술과 여러 내용 공유하는 블로그입니다.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -96,10 +96,10 @@ mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50b
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: gold@onetreegold.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
+olvy_organization: goldev
 olvy_widget_type: sidebar
 
 # syntax highlighter
@@ -113,8 +113,8 @@ show_author_education_details: true
 show_author_project_details: true
 
 # pagination of posts
-paginate: 4
-per_page: 4
+paginate: 10
+per_page: 10
 paginate_path: "/blog/page/:num/"
 
 # minify

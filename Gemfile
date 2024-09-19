@@ -41,3 +41,6 @@ end
 gem "wdm", "~> 0.2.0", :install_if => Gem.win_platform?
 gem "webrick", "~> 1.7"
 gem "ffi", "~> 1.17.0"
+
+
+gem 'eventmachine', '1.2.7', git: 'https://github.com/eventmachine/eventmachine', tag: 'v1.2.7'
