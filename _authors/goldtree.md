@@ -1,7 +1,7 @@
 ---
 name: GoldTree
 username: goldtree
-bio: "Java, Web, Db, Flutter 사용합니다."
+bio: "Java, Web, Db"
 site: https://onetreegold.com
 avatar: goldtree.png
 email: gold@onetreegold.com
