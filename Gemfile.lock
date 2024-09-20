@@ -4,7 +4,6 @@ GIT
   tag: v1.2.7
   specs:
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x86-mingw32)
 
 GEM
   remote: https://rubygems.org/
