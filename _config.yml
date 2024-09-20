@@ -1,7 +1,8 @@
-title: IT Technology Blog
-subtitle: IT 공유 블로그
+title: IT Goldev log
+subtitle: IT 블로그
 description: >- # this means to ignore newlines until "baseurl:"
-  IT 공유 블로그
+  안녕하세요! 최신 IT 소식을 다루는 블로그에 오신 것을 환영합니다.
+최신 기술 트렌드를 파악하며, IT 전문가와 초보자 모두가 유익한 정보를 얻을 수 있는 공간입니다. 
 
 #url: "https://goldneck.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 url: "https://onetreegold.com"
@@ -27,7 +28,7 @@ urls:
 
 author_logo: profile.png
 author: GoldTree
-author_bio: Java, Web, Db, Flutter 사용합니다.
+author_bio: Java, Web, Db
 author_email: "gold@onetreegold.com"
 author_location: Korea
 author_website_url: "https://onetreegold.com"
