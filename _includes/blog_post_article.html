@@ -27,11 +27,13 @@
   </div>
 
   <div class="card-body" itemprop="articleBody">
+    {% if page.isShowThumbnail %}
     <img
       class="card-img-top"
       src="{{site.url}}{{site.baseurl}}{{ page.thumbnail }}"
       alt="{{ post.title }}"
     />
+    {% endif %}
     <br />
     <br />
     {{ content }}
