@@ -4,5 +4,7 @@ Disallow: /shop
 Disallow: /get-started
 Disallow: /contact
 Disallow: /gallery
+Disallow: /products
+Disallow: /SECURITY
 Allow: /
 Sitemap: http://onetreegold.com/sitemap.xml
