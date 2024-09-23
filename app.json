@@ -1,6 +1,6 @@
 {
-  "name": "devlopr jekyll blog",
-  "description": "A Jekyll Theme built for Developers",
-  "repository": "https://github.com/sujaykundu777/devlopr-jekyll",
-  "keywords": ["jekyll", "blog"]
+  "name": "Goldev",
+  "description": "안녕하세요 IT 소식을 다루는 블로그에 오신 것을 환영합니다. 최신 기술 트렌드를 파악하며 모두가 유익한 정보를 얻을 수 있는 공간입니다",
+  "repository": "https://github.com/GoldNeck/goldneck.github.io",
+  "keywords": ["jekyll", "blog", "dev", "it", "news"]
 }
