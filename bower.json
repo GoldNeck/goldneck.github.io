@@ -1,15 +1,17 @@
 {
-  "name": "devlopr-jekyll",
-  "homepage": "https://github.com/sujaykundu777/devlopr-jekyll",
+  "name": "Goldev",
+  "homepage": "https://onetreegold.com",
   "authors": [
-    "sujaykundu777 <sujaykundu777@gmail.com>"
+    "금나무 <gold@onetreegold.com>"
   ],
-  "description": "A Jekyll Theme Built For Developers",
+  "description": "안녕하세요 IT 소식을 다루는 블로그에 오신 것을 환영합니다. 최신 기술 트렌드를 파악하며 모두가 유익한 정보를 얻을 수 있는 공간입니다",
   "main": "",
   "keywords": [
-    "jekyll-theme",
     "jekyll",
-    "gallery"
+    "blog",
+    "dev",
+    "it",
+    "news"
   ],
   "license": "MIT",
   "ignore": [
