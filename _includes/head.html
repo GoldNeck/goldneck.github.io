@@ -36,10 +36,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% if page.summary %}
     <meta name="description" content="{{ page.summary | escape }}- {% if {page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}"/>
   {% else %}
     <meta name="description" content="안녕하세요! 최신 IT 소식을 다루는 블로그에 오신 것을 환영합니다. 최신 기술 트렌드를 파악하며 모두가 유익한 정보를 얻을 수 있는 공간입니다">
+    <meta name="keywords" content="IT, Goldev, oracle, java, flutter, web">
   {% endif %}
-   <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}"/>
+   
 
   <link
     rel="alternate"
