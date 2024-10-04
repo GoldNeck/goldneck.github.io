@@ -10,7 +10,7 @@ tags: DB
 isShowThumbnail: false
 keywords: Flutter, Riverpod, 상태관리, FlutterRiverpod, 상태관리패키지, Dart, 프로바이더, ProviderScope, StateProvider, Provider, ConsumerWidget, 의존성주입, 테스트용이성, 성능최적화, 코드분리, 전역상태관리, 모듈화, Flutter개발, 모바일개발, 상태관리방법
 usemathjax: false
-permalink: /blog/sortjoin_2/
+permalink: /blog/flutter_provider_1/
 ---
 
 ## Riverpod이란 무엇인가?
