@@ -36,7 +36,7 @@ Riverpod은 다음과 같은 이유로 많은 개발자들에게 선호됩니다
 
 ### Riverpod 설정하기
 
-##### 프로젝트 생성
+#### 프로젝트 생성
 
 ```bash
 flutter create riverpod_example
@@ -115,7 +115,7 @@ HomePage: 기본 홈 화면으로, 나중에 Riverpod을 적용할 위젯을 추
 간단한 예제를 통해 실제로 사용해보겠습니다. 
 사용자 이름을 입력하면 인사말을 표시하는 앱을 만들어보겠습니다.
 
-###### (1) 프로바이더 선언
+##### (1) 프로바이더 선언
 lib/main.dart 파일에 다음과 같이 프로바이더를 선언합니다.
 
 ```dart
@@ -132,7 +132,7 @@ final greetingProvider = Provider<String>((ref) {
 StateProvider: 간단한 상태를 관리하는 프로바이더입니다. 여기서는 사용자의 이름을 저장합니다.
 Provider: 읽기 전용 데이터를 제공하는 프로바이더입니다. 여기서는 nameProvider의 상태를 기반으로 인사말을 생성합니다.
 
-###### (2) HomePage 위젯 수정
+##### (2) HomePage 위젯 수정
 HomePage 위젯을 Riverpod을 활용하도록 수정합니다. ConsumerWidget을 사용하여 프로바이더에 접근할 수 있습니다.
 
 ```dart
@@ -177,8 +177,8 @@ WidgetRef: 프로바이더에 접근하고 상태를 읽거나 변경할 수 있
 ref.watch: 프로바이더의 상태를 구독합니다. 상태가 변경되면 위젯이 자동으로 리빌드됩니다.
 ref.read: 프로바이더의 상태를 읽거나 변경할 때 사용합니다. 상태 변경 시 리빌드는 발생하지 않습니다.
 
-(3) 전체 코드 정리
-최종적으로 lib/main.dart 파일은 다음과 같습니다:
+##### (3) 전체 코드 정리
+최종적으로 lib/main.dart 파일은 다음과 같습니다
 
 ```dart
 import 'package:flutter/material.dart';
@@ -249,7 +249,7 @@ class HomePage extends ConsumerWidget {
 ```
 
 
-###### 앱 실행
+##### 앱 실행
 터미널에서 다음 명령어를 실행하세요:
 
 ```bash
@@ -260,7 +260,7 @@ flutter run
 텍스트 필드에 이름을 입력하고 "인사말 업데이트" 버튼을 누르면, 입력한 이름을 포함한 인사말로 변경됩니다. 
 예를 들어, "홍길동"을 입력하면 "안녕하세요, 홍길동님!"으로 변경됩니다.
 
-###### 정리
+##### 정리
 Riverpod의 기본 개념과 간단한 설정, 그리고 기본적인 Provider 사용법을 학습했습니다.
 
 ProviderScope: Riverpod을 사용하기 위해 앱을 감싸는 위젯입니다.
