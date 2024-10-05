@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Provider - Flutter에서 효율적인 상태 관리를 위한 Riverpod 소개"
+title:  "Flutter Riverpod에 대해 알아보자 (1/6)"
 summary: "Riverpod을 사용한 Flutter 상태 관리의 개념과 설정 방법 안내."
 author: goldtree
 date: '2024-10-04 21:33:12 +0900'
